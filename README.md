@@ -73,7 +73,7 @@ const allSongs = itemResponse.data.Items
 # Playing music
 Again since I'm building a music player, I need a URL to pass to an AudioElement.
 
-To do that I access `/Audio/${item.Id}/universal?ApiKey=${apiToken}`.
+To do that I access `/Audio/${item.Id}/universal`.
 
 Since you cannot pass headers to an audio element src tag. We pass the token using a query parameter.
 
